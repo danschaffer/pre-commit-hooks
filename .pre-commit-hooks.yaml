@@ -114,6 +114,15 @@
     # for backward compatibility
     files: ''
     minimum_pre_commit_version: 0.15.0
+-   id: check-cloudformation
+    name: Check cloudformation
+    description: This hook checks yaml files for usage of invalid functions.
+    entry: check-cloudformation
+    language: python
+    types: [yaml]
+    # for backward compatibility
+    files: ''
+    minimum_pre_commit_version: 0.15.0
 -   id: debug-statements
     name: Debug Statements (Python)
     description: This hook checks that debug statements (pdb, ipdb, pudb) are not imported on commit.

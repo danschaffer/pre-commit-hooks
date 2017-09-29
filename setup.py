@@ -38,6 +38,7 @@ setup(
             'check-ast = pre_commit_hooks.check_ast:check_ast',
             'check-byte-order-marker = pre_commit_hooks.check_byte_order_marker:main',
             'check-case-conflict = pre_commit_hooks.check_case_conflict:main',
+            'check-cloudformation = pre_commit_hooks.check_cloudformation:main',
             'check-docstring-first = pre_commit_hooks.check_docstring_first:main',
             'check-executables-have-shebangs = pre_commit_hooks.check_executables_have_shebangs:main',
             'check-json = pre_commit_hooks.check_json:check_json',
